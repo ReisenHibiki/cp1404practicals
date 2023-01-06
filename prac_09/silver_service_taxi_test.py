@@ -4,5 +4,5 @@ test_car = SilverServiceTaxi("Silver", 100, 2)
 
 print(test_car)
 test_car.drive(18)
-print(test_car.get_fare())
+print(f"{test_car.get_fare():.2f}")
 print(test_car)
